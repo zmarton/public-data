@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online PCL Viewer example</title>
+</head>
+<body>
+<p><a href="http://www.pointclouds.org/assets/viewer/pcl_viewer.html?load=https://raw.githubusercontent.com/zmarton/public-data/master/RGB-D_Object_Dataset/single_view_per_object/coffee_mug_1_1_1.pcd">Link always works (a bit slowly though)</a></p>
+<p>But iframe only after the above link is <a href="http://www.pointclouds.org/assets/viewer/pcl_viewer.html?load=https://raw.githubusercontent.com/zmarton/public-data/master/RGB-D_Object_Dataset/single_view_per_object/coffee_mug_1_1_1.pcd" target="pcl_viewer_iframe">loaded</a> into it at least once:</p>
+<iframe width="100%" height="500px" style="border:none" src="http://www.pointclouds.org/assets/viewer/pcl_viewer.html?load=https://raw.githubusercontent.com/zmarton/public-data/master/RGB-D_Object_Dataset/single_view_per_object/coffee_mug_1_1_1.pcd" name="pcl_viewer_iframe"></iframe>
+</body>
+<p>After loading, press the little PCL logo in the lower right corner, that pops up the menu bar. The second item is the options tab, there you can reduce the scale and increase the point size for better visibility.
+</html>
+<!-- for building this dynamically using JS see http://stackoverflow.com/questions/13806621/setting-a-js-variable-and-using-it-in-html-tag -->
